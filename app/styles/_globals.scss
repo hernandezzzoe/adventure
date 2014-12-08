@@ -1,0 +1,21 @@
+// bower:scss
+// endbower
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $gray-light;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+img {
+  max-width: 100%;
+}
+.sample-image {
+  display: block;
+}
