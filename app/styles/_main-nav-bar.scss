@@ -1,11 +1,10 @@
 .main-nav {
-  font-size: .7em;
-  font-family: "Futura", Helvetica, Arial, sans-serif;
+  font-size: .8em;
+  font-family: "Brandon Grotesque", Helvetica, Arial, sans-serif;
   font-style: italic;
-  letter-spacing: 5px;
+  letter-spacing: 0.32em;
   text-transform: uppercase;
-  font-weight: 400;
-
+  font-weight: 600;
   h2 {
     @include visuallyhidden;
   }
@@ -17,7 +16,7 @@
   }
   li {
     float: left;
-    margin-left: 2.3em;
+    margin-left: 2.6em;
   }
   a {
     color: $white;

@@ -38,7 +38,7 @@
         <ul>
           <li><a href="#">Trips</a></li>
           <li><a href="#">Stories</a></li>
-          <li><a href="#">Home</a></li>
+          <li class="home"><a href="#">home</a></li>
           <li><a href="#">Mission</a></li>
           <li><a href="#">My Adventures</a></li>
         </ul>
@@ -56,49 +56,31 @@
           <h1 class="blog-title">Adventure.com</h1>
           <!--blog title-->
 
+          <!--request-->
+          <button class="request" type="submit">Request a Custom Trip</button>
+          <!--request-->
+
           <!--main nav-->
           <nav class="main-nav">
             <h2>Main Navigation</h2>
             <ul>
               <li><a href="#">Trips</a></li>
               <li><a href="#">Stories</a></li>
-              <li><a href="#">Home</a></li>
+              <li class="home"><a href="#">home</a></li>
               <li><a href="#">Mission</a></li>
               <li><a href="#">My Adventures</a></li>
             </ul>
           </nav>
           <!--main nav-->
 
-          <!--request-->
-          <aside class="request">
-            <a href="#">Request A Custom Trip</a>
-          </aside>
-          <!--request-->
-
           <!--login-->
-          <aside class="login">
-            <a href="#">Login</a>
-          </aside>
+            <button class="login" type="submit">Login</button>
           <!--login-->
-
-          <!--hidden nav-->
-          <nav class="hidden-nav">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Trips</a></li>
-              <li><a href="#">Stories</a></li>
-              <li><a href="#">Find An Adventure</a></li>
-              <li><a href="#">Build A Trip</a></li>
-              <li><a href="#">Mission</a></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">My Adventures</a></li>
-            </ul>
-          </nav>
-          <!--hidden nav-->
 
         </header>
+      </div>
         <!--header-->
-  </div>
+
 
   <div class="css-module">
     <h2>.hidden-nav</h2>
@@ -125,10 +107,10 @@
           <!--lead-->
           <section class="lead">
             <img src="images/discomfort.jpg" alt="A Tribute to Discomfort">
-            <h2>A Tribute to Discomfort</h2>
-            <p>With Cory Richards</p>
-            <p><a href="#">Watch the Adventure.com Video</a></p>
-            <p><a href="#">Watch Cory's Video</a></p>
+            <h2>A Tribute to <br>Discomfort</h2>
+            <h3>With Cory Richards</h3>
+            <button class="video" type="submit">Watch the Adventure.com Video</button>
+            <button class="cory" type="submit">Watch Cory's Video</button>
           </section>
           <!--lead-->
   </div>
@@ -140,7 +122,7 @@
           <section class="go-adventure">
             <h3>Go On Adventures with Locals</h3>
             <p>Connect directly with locals around the world for unique, meaningful experiences</p>
-            <p><a href="#">More Trips with Locals</a></p>
+            <button type="submit">More Trips with Locals</button>
           </section>
           <!--go-adventure-->
   </div>
@@ -148,14 +130,43 @@
   <div class="css-module">
     <h2>.article-block</h2>
       <img class="sample-image" src="images/modules/article-block.png" alt="Article Block">
-          <!--article-block-->
-          <section class="articles">
-            <article class="article-block">
-              <h4><a href="#">Backcountry Skiing in Lake Tahoe, $400</a></h4>
-              <img src="images/backcountry-skiing.jpg" alt="Backcountry Skiing in Lake Tahoe">
-            </article>
-          </section>
-          <!--article-block-->
+      <!--article-block-->
+      <section class="articles">
+        <article class="article-block">
+          <h4><a href="#">Backcountry Skiing in Lake Tahoe, $400</a></h4>
+          <img src="images/backcountry-skiing.jpg" alt="Backcountry Skiing in Lake Tahoe">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">Moonlight Kayak Tour in Melbourne, $95</a></h4>
+          <img src="images/moonlight-kayak.jpg" alt="Moonlight Kayak Tour in Melbourne">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">NYC Photo Safari, $50</a></h4>
+          <img src="images/central-park.jpg" alt="NYC Photo Safari">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">Walk Part of the Camino de Santiago, $70</a></h4>
+          <img src="images/camino.jpg" alt="Walk Part of the Camino de Santiago">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">14Day Peru Photography Workshop, $2880</a></h4>
+          <img src="images/peru.jpg" alt="14Day Peru Photography Workshop">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">Home Cooked Lunch in San Sebastian, $45</a></h4>
+          <img src="images/lunch.jpg" alt="Home Cooked Lunch in San Sebastian">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">Gastronomy Tour of San Sebastian, $70</a></h4>
+          <img src="images/tour.jpg" alt="Gastronomy Tour of San Sebastian">
+        </article>
+        <article class="article-block">
+          <h4><a href="#">Cycle San Sebastian, $70</a></h4>
+          <img src="images/cycle.jpg" alt="Cycle San Sebastian">
+        </article>
+      </section>
+      <!--article-block-->
+
   </div>
 
   <div class="css-module">
@@ -164,9 +175,9 @@
           <!--choose-adventure-->
           <section class="choose-adventure">
             <h3>Choose Your Own Adventure</h3>
-            <p>Build your custom dream adventure with the help of our local experts</p>
+            <h4>Build your custom dream adventure with the help of our local experts</h4>
             <p>Local knowledge and expertise makes all the difference. When you build a trip with Adventure.com, you work directly with our teams in North America and in the destination you’re going to. We can help build completely custom trips for just you, a group of two or even a group of 16 or more people.</p>
-            <p><a href="#">Build Your Trip</a></p>
+            <button type="submit">Build Your Trip</button>
           </section>
           <!--choose-adventure-->
   </div>
@@ -178,13 +189,17 @@
           <footer class="page-footer">
 
             <!--footer-nav-->
-            <nav class="footer-nav">
+            <nav class="footer-nav1">
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Trips</a></li>
                 <li><a href="#">Epics</a></li>
                 <li><a href="#">Stories</a></li>
                 <li><a href="#">Mission</a></li>
+              </ul>
+            </nav>
+            <nav class="footer-nav2">
+              <ul>
                 <li><a href="#">Find an Adventure</a></li>
                 <li><a href="#">Build Custom Trip</a></li>
                 <li><a href="#">My Adventures</a></li>
@@ -195,34 +210,18 @@
             <!--footer-nav-->
 
             <!--form-->
-            <form action="my-form.php"
-            method="POST">
-            <p>Get Updates</p>
+            <div class="form">
+              <form action="my-form.php"
+              method="POST">
+              <p>Get Updates</p>
 
-            First Name: <input type="text" name="firstname" value="">
-            Last Name: <input type="text" name="firstname" value=""> <br>
-            Email: <input type="email"> <br>
+              First Name: <input type="text" name="firstname" value="">
+              Last Name: <input type="text" name="firstname" value=""> <br>
+              Email: <input type="email"> <br>
 
-            <button type="submit">Subscribe</button>
+              <button type="submit">Subscribe</button>
+            </div>
             <!--form-->
-
-            <!--footer-links-->
-            <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Follow Us:</a>
-                <ul class="social-media">
-                  <li><i class="fa fa-twitter"></i><span class="visuallyhidden"><a href="#">twitter</a></span></li>
-                  <li><i class="fa fa-facebook"></i><span class="visuallyhidden"><a href="#">facebook</a></span></li>
-                  <li><i class="fa fa-google-plus"></i><span class="visuallyhidden"><a href="#">google-plus</a></span></li>
-                  <li><i class="fa fa-pinterest"></i><span class="visuallyhidden"><a href="#">pinterest</a></span></li>
-                  <li><i class="fa fa-instagram"></i><span class="visuallyhidden"><a href="#">instagram</a></span></li>
-                </ul>
-              </li>
-            </ul>
-
-            <p>©2014 adventure.com All Rights Reserved</p>
-            <!--footer-links-->
 
           </footer>
           <!--page footer-->
@@ -232,7 +231,8 @@
       <h2>.footer-links</h2>
       <img class="sample-image" src="images/modules/footer-links.png" alt="Footer Links">
           <!--footer-links-->
-          <ul>
+        <div class="footer-links">
+          <ul class="links">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
             <li><a href="#">Follow Us:</a>
@@ -247,6 +247,7 @@
           </ul>
 
           <p>©2014 adventure.com All Rights Reserved</p>
+        </div>
           <!--footer-links-->
     </div>
 
@@ -263,7 +264,11 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="../bower_components/eventie/eventie.js"></script>
+    <script src="../bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->

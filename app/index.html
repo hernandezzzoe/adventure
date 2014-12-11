@@ -35,28 +35,25 @@
         <h1 class="blog-title">Adventure.com</h1>
         <!--blog title-->
 
+        <!--request-->
+        <button class="request" type="submit">Request a Custom Trip</button>
+        <!--request-->
+
         <!--main nav-->
         <nav class="main-nav">
+          <h2>Main Navigation</h2>
           <ul>
             <li><a href="#">Trips</a></li>
             <li><a href="#">Stories</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">Adventure.com</a></li>
             <li><a href="#">Mission</a></li>
             <li><a href="#">My Adventures</a></li>
           </ul>
         </nav>
         <!--main nav-->
 
-        <!--request-->
-        <aside class="request">
-          <a href="#">Request A Custom Trip</a>
-        </aside>
-        <!--request-->
-
         <!--login-->
-        <aside class="login">
-          <a href="#">Login</a>
-        </aside>
+        <button class="login" type="submit">Login</button>
         <!--login-->
 
         <!--hidden nav-->
@@ -82,8 +79,8 @@
       <img src="images/discomfort.jpg" alt="A Tribute to Discomfort">
       <h2>A Tribute to Discomfort</h2>
       <p>With Cory Richards</p>
-      <p><a href="#">Watch the Adventure.com Video</a></p>
-      <p><a href="#">Watch Cory's Video</a></p>
+      <button class="video" type="submit">Watch the Adventure.com Video</button>
+      <button class="cory" type="submit">Watch Cory's Video</button>
     </section>
     <!--lead-->
 
@@ -91,7 +88,7 @@
     <section class="go-adventure">
       <h3>Go On Adventures with Locals</h3>
       <p>Connect directly with locals around the world for unique, meaningful experiences</p>
-      <p><a href="#">More Trips with Locals</a></p>
+      <button type="submit">More Trips with Locals</button>
     </section>
     <!--go-adventure-->
 
@@ -106,7 +103,7 @@
         <img src="images/moonlight-kayak.jpg" alt="Moonlight Kayak Tour in Melbourne">
       </article>
       <article class="article-block">
-        <h4><a href="#">NYC Photo Safari</a></h4>
+        <h4><a href="#">NYC Photo Safari, $50</a></h4>
         <img src="images/central-park.jpg" alt="NYC Photo Safari">
       </article>
       <article class="article-block">
@@ -135,9 +132,9 @@
     <!--choose-adventure-->
     <section class="choose-adventure">
       <h3>Choose Your Own Adventure</h3>
-      <p>Build your custom dream adventure with the help of our local experts</p>
+      <h4>Build your custom dream adventure with the help of our local experts</h4>
       <p>Local knowledge and expertise makes all the difference. When you build a trip with Adventure.com, you work directly with our teams in North America and in the destination you’re going to. We can help build completely custom trips for just you, a group of two or even a group of 16 or more people.</p>
-      <p><a href="#">Build Your Trip</a></p>
+      <button type="submit">Build Your Trip</button>
     </section>
     <!--choose-adventure-->
 
@@ -162,15 +159,17 @@
       <!--footer-nav-->
 
       <!--form-->
-      <form action="my-form.php"
-      method="POST">
-      <p>Get Updates</p>
+      <div class="form">
+        <form action="my-form.php"
+        method="POST">
+        <p>Get Updates</p>
 
-      First Name: <input type="text" name="firstname" value="">
-      Last Name: <input type="text" name="firstname" value=""> <br>
-      Email: <input type="email"> <br>
+        First Name: <input type="text" name="firstname" value="">
+        Last Name: <input type="text" name="firstname" value=""> <br>
+        Email: <input type="email"> <br>
 
-      <button type="submit">Subscribe</button>
+        <button type="submit">Subscribe</button>
+      </div>
       <!--form-->
 
       <!--footer-links-->
@@ -228,6 +227,9 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="../bower_components/eventie/eventie.js"></script>
+    <script src="../bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

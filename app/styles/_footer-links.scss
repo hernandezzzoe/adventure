@@ -1,3 +1,40 @@
 .visuallyhidden{
   @include visuallyhidden;
 }
+.footer-links {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  background-color: $black-black;
+  color: $black-light;
+  font-family: "Brandon Grotesque", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.65em;
+  p {
+    float: right;
+    padding: 40px;
+  }
+  ul.links {
+    @include clearfix;
+    font-weight: 600;
+    margin: 30px;
+    list-style-type: none;
+    li {
+      float: left;
+      padding: 20px;
+    }
+  }
+  a {
+    color: $black-light;
+    text-decoration: none;
+  }
+  ul.social-media {
+    float: right;
+    list-style-type: none;
+    font-size: 2em;
+    li {
+      padding: 5px;
+    }
+  }
+}

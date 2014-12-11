@@ -1,0 +1,21 @@
+.hidden-nav {
+  padding: 50px 50px 700px 0px;
+  max-width: 317px;
+  background-color: $black;
+  font-size: .9em;
+  font-family: "Brandon Grotesque", Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: .28em;
+  line-height: 2.2em;
+  text-transform: uppercase;
+  ul {
+    list-style-type: none;
+  }
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      color: $dark-red;
+    }
+  }
+}

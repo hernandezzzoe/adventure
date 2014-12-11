@@ -1,2 +1,3 @@
-/* jshint devel:true */
-console.log('\'Allo \'Allo!');
+$('.article-block').imagefill();
+
+$('.lead').imagefill();

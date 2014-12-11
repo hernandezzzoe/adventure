@@ -1,0 +1,42 @@
+.choose-adventure {
+  background: $white;
+  text-align: center;
+  padding: 120px;
+  h3 {
+    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: .28em;
+    padding: 0;
+    margin: 0;
+  }
+  h4 {
+    color: $dark-red;
+    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: .28em;
+  }
+  p {
+    margin: 40px 0px;
+    font-family: Georgia, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+  button {
+    font-size: .9em;
+    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $black;
+    padding: 18px 50px;
+    border: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+  }
+}
