@@ -2,6 +2,7 @@
   @include visuallyhidden;
 }
 .page-footer {
+  @include clearfix;
   background-color: $black;
   font-size: .8em;
   min-height: 300px;

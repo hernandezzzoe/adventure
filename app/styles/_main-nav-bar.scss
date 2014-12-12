@@ -16,7 +16,8 @@
   }
   li {
     float: left;
-    margin-left: 2.6em;
+    margin-left: 2.5em;
+    margin-top: 1em;
   }
   a {
     color: $white;
@@ -24,5 +25,10 @@
     &:hover {
       color: $gray-dark;
     }
+  }
+  .home {
+    max-width: 120px;
+    margin-left: 1.5em;
+    margin-top: 0;
   }
 }

@@ -1,4 +1,5 @@
 .choose-adventure {
+  @include clearfix;
   background: $white;
   text-align: center;
   padding: 120px;

@@ -45,7 +45,7 @@
           <ul>
             <li><a href="#">Trips</a></li>
             <li><a href="#">Stories</a></li>
-            <li><a href="#">Adventure.com</a></li>
+            <li class="home"><a href="#"><img src="images/title.png" alt="Adventure.com"></a></li>
             <li><a href="#">Mission</a></li>
             <li><a href="#">My Adventures</a></li>
           </ul>
@@ -71,14 +71,14 @@
         </nav>
         <!--hidden nav-->
 
-    </header>
+      </header>
     <!--header-->
 
     <!--lead-->
     <section class="lead">
       <img src="images/discomfort.jpg" alt="A Tribute to Discomfort">
-      <h2>A Tribute to Discomfort</h2>
-      <p>With Cory Richards</p>
+      <h2>A Tribute to <br>Discomfort</h2>
+      <h3>With Cory Richards</h3>
       <button class="video" type="submit">Watch the Adventure.com Video</button>
       <button class="cory" type="submit">Watch Cory's Video</button>
     </section>
@@ -142,13 +142,17 @@
     <footer class="page-footer">
 
       <!--footer-nav-->
-      <nav class="footer-nav">
+      <nav class="footer-nav1">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Trips</a></li>
           <li><a href="#">Epics</a></li>
           <li><a href="#">Stories</a></li>
           <li><a href="#">Mission</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav2">
+        <ul>
           <li><a href="#">Find an Adventure</a></li>
           <li><a href="#">Build Custom Trip</a></li>
           <li><a href="#">My Adventures</a></li>
@@ -173,44 +177,27 @@
       <!--form-->
 
       <!--footer-links-->
-      <ul>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-        <li><a href="#">Follow Us:</a>
-          <ul class="social-media">
-            <li><i class="fa fa-twitter"></i><span class="visuallyhidden"><a href="#">twitter</a></span></li>
-            <li><i class="fa fa-facebook"></i><span class="visuallyhidden"><a href="#">facebook</a></span></li>
-            <li><i class="fa fa-google-plus"></i><span class="visuallyhidden"><a href="#">google-plus</a></span></li>
-            <li><i class="fa fa-pinterest"></i><span class="visuallyhidden"><a href="#">pinterest</a></span></li>
-            <li><i class="fa fa-instagram"></i><span class="visuallyhidden"><a href="#">instagram</a></span></li>
-          </ul>
-        </li>
-      </ul>
+      <div class="footer-links">
+        <ul class="links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Follow Us:</a>
+            <ul class="social-media">
+              <li><i class="fa fa-twitter"></i><span class="visuallyhidden"><a href="#">twitter</a></span></li>
+              <li><i class="fa fa-facebook"></i><span class="visuallyhidden"><a href="#">facebook</a></span></li>
+              <li><i class="fa fa-google-plus"></i><span class="visuallyhidden"><a href="#">google-plus</a></span></li>
+              <li><i class="fa fa-pinterest"></i><span class="visuallyhidden"><a href="#">pinterest</a></span></li>
+              <li><i class="fa fa-instagram"></i><span class="visuallyhidden"><a href="#">instagram</a></span></li>
+            </ul>
+          </li>
+        </ul>
 
-      <p>©2014 adventure.com All Rights Reserved</p>
+        <p>©2014 adventure.com All Rights Reserved</p>
+      </div>
       <!--footer-links-->
 
     </footer>
     <!--page footer-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -231,6 +218,7 @@
     <script src="../bower_components/eventie/eventie.js"></script>
     <script src="../bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
