@@ -2,8 +2,8 @@
   @include visuallyhidden;
 }
 .footer-links {
-  @include clearfix;
   position: absolute;
+  bottom: 0px;
   height: 80px;
   width: 100%;
   background-color: $black-black;
@@ -13,17 +13,17 @@
   text-transform: uppercase;
   font-size: 0.65em;
   p {
-    float: right;
-    padding: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
   }
   ul.links {
     @include clearfix;
     font-weight: 600;
-    margin: 30px;
+    margin: 20px;
     list-style-type: none;
     li {
       float: left;
-      padding: 20px;
     }
   }
   a {
@@ -31,7 +31,8 @@
     text-decoration: none;
   }
   ul.social-media {
-    float: right;
+    position: absolute;
+    bottom: 1px;
     list-style-type: none;
     font-size: 2em;
     li {

@@ -20,6 +20,10 @@ img {
   display: block;
 }
 
+.articles {
+  @include clearfix;
+}
+
 @font-face {
   font-family: 'good_footregular';
   src: url('goodfoot-webfont-webfont.eot');
