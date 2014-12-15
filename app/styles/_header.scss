@@ -1,10 +1,11 @@
 .page-header {
+  position: relative;
   float: left;
   width: 100%;
   margin-bottom: 3em;
   .request {
     float: left;
-    margin: 35px 20px 20px 85px;
+    margin: 35px 20px 20px 40px;
   }
   .main-nav {
     float: left;
@@ -13,7 +14,7 @@
   }
   .login {
     float: right;
-    margin: 35px 20px 20px 20px;
+    margin: 35px 40px 20px 20px;
   }
   .blog-title {
     @include visuallyhidden;
@@ -21,9 +22,9 @@
   button {
     line-height: 1em;
     font-size: .8em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon_grotesque_regularRg", Helvetica, sans-serif;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: .28em;
     text-transform: uppercase;
     color: $black;

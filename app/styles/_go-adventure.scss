@@ -8,15 +8,14 @@
   padding: 90px 60px 40px 60px;
   width: 100%;
   h3 {
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 2em;
+    font: bold 2em "brandon_grotesquebold", Helvetica, sans-serif;
     letter-spacing: .28em;
     margin: 0;
   }
   p {
     color: $dark-red;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon_grotesque_regularRg", Helvetica, sans-serif;
+    font-size: 0.9em;
     font-weight: 600;
     font-style: italic;
     letter-spacing: .28em;
@@ -24,8 +23,8 @@
   button {
     margin: 20px;
     font-size: .9em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: "brandon_grotesque_regularRg", Helvetica, sans-serif;
+    font-weight: 600;
     letter-spacing: .28em;
     text-transform: uppercase;
     color: $white;
